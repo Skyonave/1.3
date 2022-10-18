@@ -1,0 +1,111 @@
+.aside-menu {
+
+}
+
+.aside-menu--wrapper {
+    display: flex;
+    flex-flow: column;
+    width: 320px;
+    height: 100vh;
+    background-color: white;
+}
+
+.aside-menu__header {
+    display: flex;
+    align-items: center;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 35px;
+    margin-bottom: 45px;
+}
+
+.aside-menu__logo {
+    margin-left: 16px;
+}
+
+.aside-menu__list-prefix {
+    display: flex;
+    align-items: center;
+    margin-bottom: 28px;
+}
+
+.aside-menu__highlight {
+    width: 4px;
+    height: 32px;
+    background-color: #41F6D7;
+    border-radius: 0 5px 5px 0;
+    margin-right: 20px;
+}
+
+.aside-menu__heading {
+    color: #7E7E82;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.aside-menu__link-list {
+    padding: 0 24px;
+}
+
+.aside-menu__link-item {
+    color: #1B1C21;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+.aside-menu__link-item:hover {
+    opacity: 50%;
+}
+
+.aside-menu__footer {
+    display: flex;
+    flex-flow: column;
+    padding: 0 24px;
+}
+
+.aside-menu__buttons {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+.aside-menu__email {
+    color: #1B1C21;
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+.aside-menu__phone {
+    color: #1B1C21;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.aside-menu__language {
+    display: flex;
+    gap: 7px;
+    margin-bottom: 32px;
+}
+
+.aside-menu__language-item--active {
+    color: #7E7E82;
+    font-weight: 600;
+    font-size: 16px;
+}
+.aside-menu__language-item {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.aside-menu__language-item:hover {
+    opacity: 50%;
+}
+
+@media (min-width: 993px) {
+    /* .aside-menu__logo { Это скроет X для десктоп экранов
+        margin: 0 0;
+    } */
+}

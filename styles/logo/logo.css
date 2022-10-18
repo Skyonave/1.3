@@ -1,0 +1,11 @@
+.logo {
+    background-color: transparent;
+    background-image: url("../../assets/logo.svg");
+    background-repeat: no-repeat;
+    width: 97px;
+    height: 51px;
+}
+
+@media (min-width: 0px) and (max-width: 767px) {}
+@media (min-width: 768px) and (max-width: 992px) {}
+@media (min-width: 993px) {}

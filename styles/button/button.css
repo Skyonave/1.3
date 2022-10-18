@@ -1,0 +1,86 @@
+.button {
+    background-color: #FF3E79;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.button__text {
+    font-weight: 600;
+    margin-right: 8px;
+    margin-left: 32px;
+}
+
+.button__label {
+    display: flex;
+    align-items: center;
+}
+
+.button:hover {
+    background-color: cornflowerblue;
+}
+
+.button__menu {
+    background-image: url("../../assets/burger.svg");
+}
+
+.button__call {
+    background-image: url("../../assets/call.svg");
+}
+
+.button__chat {
+    background-image: url("../../assets/chat.svg");
+}
+
+.button__profile {
+    background-image: url("../../assets/profile.svg");
+}
+
+.button__repair {
+    background-image: url("../../assets/repair.svg");
+}
+
+.button__status {
+    background-image: url("../../assets/status.svg");
+}
+
+.button__x {
+    background-image: url("../../assets/x.svg");
+}
+
+.button__search {
+    background-image: url("../../assets/search.svg");
+}
+
+@media (min-width: 0px) and (max-width: 767px) {
+    .button__status {
+        margin-left: 16px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .button__menu {
+        margin-right: 20px;
+    }
+
+    .button__status, .button__chat {
+        margin-left: 16px;
+    }
+
+    .button__repair {
+        margin-left: 20px;
+    }
+
+    .button__profile {
+        margin-right: 20px;
+        margin-left: 16px;
+    }
+}
+
+@media (min-width: 993px) {
+    .button__status {
+        margin-right: 24px;
+    }
+}

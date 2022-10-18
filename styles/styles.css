@@ -1,0 +1,55 @@
+@import "fonts.css";
+@import url("button/button.css");
+@import url("header/header.css");
+@import url("logo/logo.css");
+@import url("heading/heading.css");
+@import url("navigation/navigation.css");
+@import url("content/content.css");
+@import url("aside-menu/aside-menu.css");
+
+*,
+*::before,
+*::after {box-sizing: border-box}
+
+body {margin: 0; padding: 0; font-family: TTLakes, sans-serif; background-color: #F8F8F8;}
+button {border: none; background-color: transparent; margin: 0; padding: 0;}
+h1 {padding: 0; margin: 0; font-size: 28px}
+ul, li {list-style-type: none; margin: 0; padding: 0;}
+
+.separator {
+    flex-grow: 1;
+}
+
+
+body {
+    max-width: 1440px;
+    min-width: 320px;
+    margin: 0 auto;
+}
+
+.body {
+    display: flex;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+@media (min-width: 0px) and (max-width: 767px) {
+    .hides-mobile {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .hides-tablet {
+        display: none;
+    }
+}
+
+@media (min-width: 993px) {
+    .hides-desktop {
+        display: none;
+    }
+}

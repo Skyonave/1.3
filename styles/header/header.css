@@ -1,0 +1,39 @@
+.header {
+    background-color: white;
+}
+
+.header__container {
+    display: flex;
+    height: 88px;
+    width: 100%;
+    min-width: 320px;
+    align-items: center;
+}
+
+.header__divider {
+    width: 2px;
+    height: 32px;
+    background-color: #EAEAEA;
+}
+
+@media (min-width: 0px) and (max-width: 767px) {
+    .header__container {
+        padding: 0 16px;
+    }
+
+    .header__logo {
+        margin: 0 16px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .header__container {
+        padding: 0px 24px;
+    }
+
+    .header__logo {
+        margin: 0px 20px;
+    }
+}
+
+@media (min-width: 993px) {}
