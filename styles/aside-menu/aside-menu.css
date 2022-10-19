@@ -105,9 +105,3 @@
 .aside-menu__language-item:hover {
     opacity: 50%;
 }
-
-@media (min-width: 993px) {
-    /* .aside-menu__logo { Это скроет X для десктоп экранов
-        margin: 0 0;
-    } */
-}
