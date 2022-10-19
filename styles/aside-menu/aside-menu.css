@@ -52,9 +52,11 @@
     font-size: 16px;
     font-weight: 600;
     margin-bottom: 24px;
+    transition: 0.3s;
 }
 
 .aside-menu__link-item:hover {
+    color: deeppink;
     opacity: 50%;
 }
 
