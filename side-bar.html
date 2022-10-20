@@ -5,28 +5,17 @@
     <title>Sidebar</title>
     <link href="styles/styles.css" rel="stylesheet">
 </head>
-<!-- Это временно. -->
-<style>
-  body {
-    padding: 0;
-    margin: 0;
-  }
-</style>
-<!-- Это временно. -->
-<body>
+<body class="aside-body">
 <aside class="aside-menu">
   <div class="aside-menu--wrapper">
     <header class="aside-menu__header">
       <button class="button button__x"></button>
-      <a href="" class="logo aside-menu__logo"></a>
+      <a href="" class="logo aside-menu__logo"><img src="assets/logo.svg"></a>
       <div class="separator"></div>
       <button class="button button__search"></button>
     </header>
-    <div class="aside-menu__list-prefix">
-      <div class="aside-menu__highlight"></div>
-      <span class="aside-menu__heading">Ремонт техники</span>
-    </div>
     <ul class="aside-menu__link-list">
+      <li class="aside-menu__link-item aside-menu__link-item--active"><a href="">Ремонт техники</a></li>
       <li class="aside-menu__link-item"><a href="">Услуги и сервисы</a></li>
       <li class="aside-menu__link-item"><a href="">Корпоративным клиентам</a></li>
       <li class="aside-menu__link-item"><a href="">Продавцам техники</a></li>
@@ -42,8 +31,8 @@
         <button class="button button__chat"></button>
         <button class="button button__profile"></button>
       </div>
-      <span class="aside-menu__email">mail@cps.com</span>
-      <span class="aside-menu__phone">8 800 890 8900</span>
+      <a href = "mailto:mail@cps.com">mail@cps.com</a>
+      <a class="aside-menu__phone" href=“tel:8-800-890-89-00”>8 800 890 8900</a>
       <ul class="aside-menu__language">
         <li ><button class="aside-menu__language-item--active">RU</button></li>
         <li ><button class="aside-menu__language-item">EN</button></li>

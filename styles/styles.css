@@ -20,15 +20,12 @@ ul, li {list-style-type: none; margin: 0; padding: 0;}
     flex-grow: 1;
 }
 
+.aside-body {margin: 0; padding: 0;}
 
 body {
     max-width: 1120px;
     min-width: 320px;
     margin: 0 auto;
-}
-
-.body {
-    display: flex;
 }
 
 a {
