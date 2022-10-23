@@ -1,0 +1,141 @@
+.swiper {
+    min-width: 320px;
+    height: 140px;
+    background-color: #F8F8F8;
+}
+
+.swiper-slide {
+    padding: 16px;
+}
+
+.card-brand {
+    width: 240px;
+    height: 72px;
+    background-color: white;
+    border: 1px solid #EAEAEA;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+.swiper-pagination {
+    background-color: #F8F8F8;
+}
+
+.swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    background-color: #DDDDDD;
+    opacity: 1;
+}
+
+
+.swiper-pagination-bullet-active {
+    background-color: #B5B6BC;
+}
+
+.brand-heading {
+    height: 80px;
+    width: auto;
+    color: #7E7E82;
+    padding: 16px;
+    background-color: white;
+}
+
+.next-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #FF3E79;
+    position: relative;
+}
+
+.next-button:before {
+    position: absolute;
+    content: "";
+    height: 9px;
+    width:  9px;
+    border-top: 2px solid #FF3E79;
+    border-right: 2px solid #FF3E79;
+    transform: rotate(45deg);
+    top: 13px;
+    left: 12px;
+}
+
+/* МНЕ СТАЛО ЛЕНЬ СОЗДАВАТЬ ПАПКИ И ФАЙЛЫ СТИЛЕЙ ДЛЯ ОДИНОЧНЫХ ПРОЕКТОВ. ПОЭТОМУ Я ПРОСТО ДОБАВЛЮ ВСЕ СТИЛИ СЛАЙДЕРА СЮДА :))) */
+
+.brand-list {
+    padding: 24px;
+    background-color: #F8F8F8;
+}
+
+.brand-list__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    height: 175px; /* 365px */
+    gap: 16px 24px;
+    overflow: hidden;
+    transition: 1s;
+    align-content: flex-start;
+}
+
+.show-button {
+    font-size: 16px;
+    color: #1B1C21;
+    font-family: TTLakes, sans-serif;
+    font-weight: 600;
+    position: relative;
+    padding-left: 27px;
+}
+
+.show-button:hover {
+    text-decoration-line: underline;
+    cursor: pointer;
+    transition: 1s;
+}
+
+
+.show-button:before {
+    position: absolute;
+    content: "";
+    left: 5px;
+    top: 6px;
+    width: 8px;
+    height: 11px;
+    background-image: url("../../assets/launcher.svg");
+    transition: 1s;
+}
+
+.reverse:before {
+    transform: rotate(180deg);
+}
+
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .card-brand {
+        width: 224px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
