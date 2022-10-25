@@ -1,11 +1,11 @@
 .swiper {
-    min-width: 320px;
+    width: 320px;
     height: 140px;
     background-color: #F8F8F8;
 }
 
 .swiper-slide {
-    padding: 16px;
+
 }
 
 .card-brand {
@@ -74,11 +74,12 @@
 .brand-list__wrapper {
     display: flex;
     flex-wrap: wrap;
-    height: 175px; /* 365px */
+    max-height: 175px; /* 365px */
     gap: 16px 24px;
     overflow: hidden;
     transition: 1s;
     align-content: flex-start;
+    padding-bottom: 20px;
 }
 
 .show-button {
@@ -119,7 +120,10 @@
     }
 }
 
-
+h3 {
+    font-size: 16px;
+    text-transform: uppercase;
+}
 
 
 
